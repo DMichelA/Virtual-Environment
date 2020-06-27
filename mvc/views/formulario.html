@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Web.py</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link href="{{=URL('static', 'css/style.css')}}" rel="stylesheet" type="text/css" /> Web2py-->
+    <link rel="stylesheet" href="static/style.css" type="text/css" media="screen" charset="utf-8"/>
+</head>
+<body>
+  <h1>FORMULARIO BOOTSTRAP FRAMEWORK</h1>
+    <form class="form-bootstrap" action="">
+        <div class="form-field">
+            <label for="matricula">Matricula:</label>
+            <div class="col-sm-10">
+                <input type="text" class="field" id="matricula" placeholder="Introduce matricula">
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="name">Nombre:</label>
+            <div class="col-sm-10">
+                <input type="text" class="field" id="name" placeholder="Introduce nombre">
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="onelastname">Primer Apellido:</label>
+            <div class="col-sm-10">
+                <input type="text" class="field" id="onelastname" placeholder="Introduce primer apellido">
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="twolastname">Segundo Apellido:</label>
+            <div class="col-sm-10">
+                <input type="text" class="field" id="twolastname" placeholder="Introduce segundo apellido">
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="edad">Edad:</label>
+            <div class="col-sm-10">
+                <input type="text" class="field" id="edad" placeholder="Introduce edad">
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="field">Fecha de Nacimiento:</label>
+                <input type="date" class="field" id="borndate" placeholder="Introduce fecha de nacimiento">
+        </div>
+        <div class="field-check">
+            <label for="field">Sexo:</label>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="sexop" value="option1"> Femenino
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="sexop" value="option2"> Masculino
+              </label>
+        </div>
+        <div class="form-field">
+            <label for="inputState">Estado:</label>
+            <select id="inputState" class="field">
+              <option selected>Seleccionar...</option>
+              <option>Soltero</option>
+              <option>Casado</option>
+              <option>Divorciado</option>
+              <option>Otro</option>
+            </select>
+        </div>
+            <button type="submit" class="boton">Guardar</button>
+        </div>
+    </form>
+</body>
+</html>
